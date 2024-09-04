@@ -1,0 +1,100 @@
+#featured-3 {
+    background-color: rgb(171, 186, 207);
+}
+
+#featured-2 {
+
+
+}
+
+#blogimg {
+    margin: 0px;
+}
+
+
+.headfont {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+.featureblocks {
+    background-color: aliceblue;
+    padding-top: 10px;
+    margin: 40px;
+}
+
+#fontpricing {
+
+    
+        font-family: "Caveat", cursive;
+        font-size: 40px;
+        font-optical-sizing: auto;
+        font-weight: bold;
+    
+}
+
+#priceboxes {
+    background-color: #b5e3eb;
+    /* a9d5dd */
+}
+
+
+
+#btclr {
+  background-color: rgb(60, 85, 142);
+  color: aliceblue;
+}
+
+.blogspage {
+  background-color: #b5e3eb;
+}
+
+/*
+.home-faq {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(171, 186, 207);
+  }
+
+  .home-faq1 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+
+  .home-container29 {
+    display: flex;
+    max-width: 35%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+  .question1-container {
+    gap: var(--dl-space-space-unit);
+    flex: 1;
+    width: auto;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .question1-text {
+    font-weight: 700;
+  }
+  
+*/

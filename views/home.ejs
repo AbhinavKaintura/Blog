@@ -1,0 +1,258 @@
+
+      <%- include('partials/header.ejs') %>
+      
+     
+        <main>
+                <!-- Headers -->
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
+              <div class="col-md-3 mb-2 mb-md-0">
+                
+                <a href="https://getbootstrap.com/docs/5.3/examples/headers/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                  <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                  <h6 class="fw-bold fs-2 ">WonderWord</h6>
+                  
+                </a>
+              </div>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2">Features</a></li>
+                <li><a href="#" class="nav-link px-2">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2">About</a></li>
+              </ul>
+        
+              <div class="col-md-3 text-end">
+                <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+                <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+              </div>
+            </header>
+          </div>
+      
+      <!-- Welcome section -->
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/blogpic.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="500" loading="lazy" id="blogimg">
+          </div>
+          <div class="col-lg-6 " style=" margin-left: 0px;" style=" margin-right: 0px;">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome To My Blogging Website</h1>
+            <p class="lead">Share your thoughts and stories with the world.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <form method="post" action="/check">
+                <button type="submit" class="btn btnclr btn-primary btn-lg px-4 me-md-2" id="btclr">Start Writing Now</button>
+              </form>
+              
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More -> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- features -->
+      <div class="container px-5 pt-5 mb-5" id="featured-3">
+        <div class=" text-center" id="featured-2">
+          <h6 class="">FEATURES</h6>
+          <h2 class="pb-1 headfont">Explore Our Features</h2>
+          <h4 class="align-items-center justify-content-center">Discover what you can do on our blogger website</h4>
+        </div>
+        
+        <div class=" row g-3 py-5 row-cols-1 row-cols-lg-4">
+          <div class="feature col featureblocks" >
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg  class="bi" width="1em" height="1em"><use xlink:href="#collection" ></use><img src="createlogo.png" height="50" width="1rem"> </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Create Posts</h3>
+            <p>Easily create and publish your own blog posts</p>
+          </div>
+          <div class="feature col featureblocks">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">View Posts</h3>
+            <p>Easily create and publish your own blog posts</p>
+
+          </div>
+          <div class="feature col featureblocks">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Customize your Profile</h3>
+            <p>Personalize your profile to showcase your blogging style</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Pricing -->
+      <header class="pt-5" >
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center mt-5">
+          <h6>PRICING</h6>
+          <h1 class="display-4 fw-normal headfont text-body-emphasis">Choose Your Plan</h1>
+          <p class="fs-2 text-body-secondary" id="fontpricing" >Select the perfect plan that suits your blogging needs
+          </p>
+        </div>
+      </header>
+
+      <main class="mx-5 mb-5">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" id="priceboxes">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Post your Blogs</li>
+                  <li>Share your views</li>
+                  <li>View your Blogs</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-75 btn btn-lg btn-outline-dark">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb- rounded-3 shadow-sm" id="priceboxes">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$5<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Post and share your thoughts</li>
+                  <li>Priority email support</li>
+                  <li>More interactive environment</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-75 btn btn-lg btn-outline-dark">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark" id="priceboxes">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$9<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Phone and email support</li>
+                  <li>Unlock Exciting features</li>
+                  <li>Interactive environment</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-75 btn btn-lg btn-dark">Get started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Banner -->
+      <div class=" text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-6 fw-bold text text-dark pb-1" id="fontpricing">Express Yourself Through Blogging
+          </h1>
+          <div class="col-lg-11 mx-auto">
+            <p class="fs-5 mb-4">Create, share, and engage with your audience through your unique content. Whether you're a seasoned writer or just starting out, this platform is for you.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <form action="/check" method="post">
+                <button type="button submit" class="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-normal" id="btclr">Start writing</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--FAQs-->
+      <!-- 
+      <div class="home-faq ">
+        <div class="faqContainer">
+          <div class="home-faq1">
+            <div class="home-container29">
+              <span class="overline">
+                <span>FAQ</span>
+                <br />
+              </span>
+              <h2 class="home-text85 heading2">Common questions</h2>
+              <span class="home-text86 bodyLarge">
+                <span>
+                  Here are some of the most common questions that we get.
+                </span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container30">
+              <div class="question1-container">
+                <span class="question1-text heading3">
+                  <span>How do I create a new post?</span>
+                </span>
+                <span class="bodySmall">
+                  <span>
+                    To create a new post, simply click on the 'Add Post' button on
+                    the dashboard and fill in the required details.
+                  </span>
+                </span>
+              </div>
+              <div class="question1-container">
+                <span class="question1-text heading3">
+                  <span>Can I edit or delete my posts?</span>
+                </span>
+                <span class="bodySmall">
+                  <span>
+                    Yes, you can edit or delete your posts by going to the 'My
+                    Posts' section and selecting the post you want to modify.
+                  </span>
+                </span>
+              </div>
+              <div class="question1-container">
+                <span class="question1-text heading3">
+                  <span>
+                    Is there a limit to the number of posts I can create?
+                  </span>
+                </span>
+                <span class="bodySmall">
+                  <span>
+                    There is no limit to the number of posts you can create on our
+                    platform.
+                  </span>
+                </span>
+              </div>
+              <div class="question1-container">
+                <span class="question1-text heading3">
+                  <span>How can I customize the look of my blog?</span>
+                </span>
+                <span class="bodySmall">
+                  <span>
+                    You can customize the look of your blog by going to the
+                    'Settings' section and choosing from various themes and layout
+                    options.
+                  </span>
+                </span>
+              </div>
+              <div class="question1-container">
+                <span class="question1-text heading3">
+                  <span>
+                    Can I schedule posts to be published at a later date?
+                  </span>
+                </span>
+                <span class="bodySmall">
+                  <span>
+                    Yes, you can schedule posts to be published at a later date by
+                    selecting the desired publishing date and time before
+                    submitting your post.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+  </main>
+
+<%- include('partials/footer.ejs') %>
